@@ -1,0 +1,1 @@
+{"baseAddress":"z1qz8q0x3rs36z2kw8eltf8r323hlcn64jnujkuz","crypto":{"argon2Params":{"salt":"0xf9a2db9d7f47dad78b32af7fff9852c6"},"cipherData":"0xc9c82489d3d38b74c6132511e9bd53066c5387b5e67f74c1981ba1b8bbaa3127","cipherName":"aes-256-gcm","kdf":"argon2.IDKey","nonce":"0xf6045d6325ee9f33eaa6f54d"},"timestamp":1666019249,"version":1}

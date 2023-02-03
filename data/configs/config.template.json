@@ -1,0 +1,31 @@
+{
+    "LogLevel": "debug",
+    "Name": "public-testnet-${INDEX}",
+    "Net": {
+        "MinPeers": ${MIN_PEERS},
+        "Seeders": [
+		    "enode://4ef83290ae428db7c5907825b31accf09d59b968448bba6ef24f60163fa24118f0a4fbbdc34e6b3a5ebbd66a72a160bab519a262aeb84db26980c5de3547d30c@172.20.0.254:35995"
+        ]
+    },
+    "GenesisFile": "/root/.znn/genesis.json",
+    "Producer": {
+        "Index": ${INDEX},
+        "KeyFilePath": "producer.json",
+        "Password": "Pass-123456",
+        "Address": "${ADDRESS}"
+    },
+    "RPC": {
+        "EnableHTTP": true,
+        "EnableWS": true,
+        "HTTPPort": 35997,
+        "WSPort": 35998,
+        "HTTPVirtualHosts": [
+        ],
+        "HTTPCors": [
+            "*"
+        ],
+        "WSOrigins": [
+            "*"
+        ]
+    }
+}

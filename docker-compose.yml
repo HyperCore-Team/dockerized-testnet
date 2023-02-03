@@ -1,0 +1,119 @@
+version: "3.9"
+
+networks:
+  testnet:
+    ipam:
+      config:
+        - subnet: 172.20.0.0/24
+
+services:
+  genesis: 
+    build:
+      context: .
+      dockerfile: ./genesis/Dockerfile
+    volumes:
+      - "./data:/app"
+      - "./data/configs/producer.json:/root/.znn/wallet/producer.json"
+      - "./data/configs/orchestrator.seeder.json:/root/.node/config.json"
+      - "./data/configs/producer.json:/root/.node/producer.json"
+    environment:
+      PILLARS_REPLICAS: ${PILLARS_REPLICAS}
+      PILLARS_PARTICIPANTS: ${PILLARS_PARTICIPANTS}
+    command: >
+      bash -c "
+        generate_genesis /app/configs/genesis.template.json producer.json Pass-123456 $PILLARS_REPLICAS /app/configs/genesis.json && \
+        generate_tss_peers $PILLARS_REPLICAS /app/configs/orchestrator.TssConfig.LocalPubKeys.json /app/configs/orchestrator.TssConfig.PubKeyWhitelist.json
+      "
+
+
+  hardhat:
+    build:
+      context: .
+      dockerfile: ./hardhat/Dockerfile
+    ports:
+      - "127.0.0.1:8545:8545"
+    volumes:
+      - "./data:/app"
+    networks:
+      testnet:
+        ipv4_address: 172.20.0.253
+
+
+  seeder:
+    build:
+      context: .
+      dockerfile: ./node/Dockerfile
+    cap_add:
+      - NET_ADMIN
+    ports:
+      - "0.0.0.0:35997:35997"
+      - "0.0.0.0:35998:35998"
+    volumes:
+      - "./data:/app"
+      - "./data/configs/genesis.json:/root/.znn/genesis.json"
+      - "./data/configs/config.seeder.json:/root/.znn/config.json"
+      - "./data/configs/producer.json:/root/.znn/wallet/producer.json"
+      - "./data/configs/network-private-key-seeder:/root/.znn/network-private-key"
+      - "./data/configs/orchestrator.seeder.json:/root/.node/config.json"
+      - "./data/configs/producer.json:/root/.node/producer.json"
+      # - "./data/bootstraps/${PILLARS_REPLICAS}-pillars/consensus:/root/.znn/consensus"
+      # - "./data/bootstraps/${PILLARS_REPLICAS}-pillars/network:/root/.znn/network"
+      # - "./data/bootstraps/${PILLARS_REPLICAS}-pillars/nom:/root/.znn/nom"
+    networks:
+      testnet:
+        ipv4_address: 172.20.0.254
+    depends_on:
+      genesis:
+        condition: service_completed_successfully
+      hardhat:
+        condition: service_started
+    environment:
+      PILLARS_REPLICAS: ${PILLARS_REPLICAS}
+      PILLARS_PARTICIPANTS: ${PILLARS_PARTICIPANTS}
+    command: >
+      bash -c "
+        if [ -d "/app/bootstraps/${PILLARS_REPLICAS}-pillars" ];
+        then
+            cp -avr /app/bootstraps/$PILLARS_REPLICAS-pillars/* /root/.znn/
+        fi && \
+        # apt install iproute2 -y && \
+        # tc qdisc add dev eth0 root netem delay 70ms loss 0.5% && \
+        (until znnd ;do sleep 1; done & sleep 30 && until orchestrator; do sleep 30; done & wait)
+      "
+
+
+  pillars:
+    build:
+      context: .
+      dockerfile: ./node/Dockerfile
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - "./data:/app"
+      - "./data/configs/genesis.json:/root/.znn/genesis.json"
+      - "./data/configs/producer.json:/root/.znn/wallet/producer.json"
+      - "./data/configs/producer.json:/root/.node/producer.json"
+    networks: 
+      - testnet
+    depends_on:
+      genesis:
+        condition: service_completed_successfully
+      seeder:
+        condition: service_started
+    deploy:
+      replicas: ${PILLARS_REPLICAS}
+    environment:
+      PILLARS_REPLICAS: ${PILLARS_REPLICAS}
+      PILLARS_PARTICIPANTS: ${PILLARS_PARTICIPANTS}
+    command: >
+      bash -c "
+        /app/utils/init.sh && \
+        # apt install iproute2 -y && \
+        # tc qdisc add dev eth0 root netem delay 70ms loss 0.5% && \
+        ( \
+          until znnd; do sleep 1; done & \
+          sleep 30 && \
+          until orchestrator; do sleep 30; done & \
+          wait \
+        )
+      "

@@ -1,0 +1,51 @@
+{
+    "DataPath": "/root/.node",
+    "EventsPath": "",
+    "QueuesPath": "",
+    "GlobalState": 0,
+    "EvmAddress": "",
+    "Networks": {
+        "bsc": {
+            "Urls": [
+                "ws://172.20.0.253:8545"
+            ]
+        },
+        "znn": {
+            "Urls": [
+                "ws://127.0.0.1:35998"
+            ]
+        }
+    },
+    "TssConfig": {
+        "Port": 18668,
+        "PublicKey": "",
+        "DecompressedPublicKey": "",
+        "LocalPubKeys": 
+        ${LOCAL_PUBKEYS},
+            "Param": {
+            "PaillierSK": null,
+            "NTildei": null,
+            "H1i": null,
+            "H2i": null,
+            "Alpha": null,
+            "Beta": null,
+            "P": null,
+            "Q": null
+        },
+        "Bootstrap": "/ip4/172.20.0.254/tcp/18668/p2p/12D3KooWCZuyZhmdHCp5LLRxZd619T3AT8pLAg4P6UnqST894qpN",
+        "PubKeyWhitelist": 
+        ${PUBKEY_WHITELIST},
+        "BaseDir": "/root/.node/tss",
+        "BaseConfig": {
+            "PartyTimeout": 90000000000,
+            "KeyGenTimeout": 3000000000000,
+            "KeySignTimeout": 60000000000,
+            "KeyRegroupTimeout": 0,
+            "PreParamTimeout": 3000000000000,
+            "EnableMonitor": false
+        }
+    },
+    "ProducerKeyFileName": "producer.json",
+    "ProducerKeyFilePassphrase": "Pass-123456",
+    "ProducerIndex": ${INDEX}
+}
