@@ -18,7 +18,6 @@ services:
       - "./data/configs/producer.json:/root/.node/producer.json"
     environment:
       PILLARS_REPLICAS: ${PILLARS_REPLICAS}
-      PILLARS_PARTICIPANTS: ${PILLARS_PARTICIPANTS}
     command: >
       bash -c "
         generate_genesis /app/configs/genesis.template.json producer.json Pass-123456 $PILLARS_REPLICAS /app/configs/genesis.json && \
@@ -69,7 +68,6 @@ services:
         condition: service_started
     environment:
       PILLARS_REPLICAS: ${PILLARS_REPLICAS}
-      PILLARS_PARTICIPANTS: ${PILLARS_PARTICIPANTS}
     command: >
       bash -c "
         if [ -d "/app/bootstraps/${PILLARS_REPLICAS}-pillars" ];
@@ -104,7 +102,6 @@ services:
       replicas: ${PILLARS_REPLICAS}
     environment:
       PILLARS_REPLICAS: ${PILLARS_REPLICAS}
-      PILLARS_PARTICIPANTS: ${PILLARS_PARTICIPANTS}
     command: >
       bash -c "
         /app/utils/init.sh && \
