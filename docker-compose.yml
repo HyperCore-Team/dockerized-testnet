@@ -104,6 +104,7 @@ services:
       PILLARS_REPLICAS: ${PILLARS_REPLICAS}
     command: >
       bash -c "
+        chmod +x /app/utils/init.sh && \
         /app/utils/init.sh && \
         # apt install iproute2 -y && \
         # tc qdisc add dev eth0 root netem delay 70ms loss 0.5% && \
