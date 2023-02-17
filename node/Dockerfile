@@ -1,4 +1,4 @@
-FROM golang AS pillars
+FROM golang:latest AS pillars
 
 WORKDIR /app
 
