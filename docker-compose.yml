@@ -29,13 +29,37 @@ services:
     build:
       context: .
       dockerfile: ./hardhat/Dockerfile
+    volumes:
+      - "./data/configs/hardhat.config.js:/data/hardhat.config.js"
     ports:
       - "127.0.0.1:8545:8545"
-    volumes:
-      - "./data:/app"
     networks:
       testnet:
         ipv4_address: 172.20.0.253
+
+
+  deploy-evm-bridge:
+    build:
+      context: .
+      dockerfile: ./hardhat/Dockerfile
+    volumes:
+      - "./data:/app"
+    depends_on:
+      hardhat:
+        condition: service_started
+    networks:
+      - testnet
+    entrypoint: []
+    command:
+      - /bin/sh
+      - -c
+      - |
+        cd /app/repos/evm-bridge-contracts
+        npm install
+        ./node_modules/.bin/hardhat compile
+        ./node_modules/.bin/hardhat run ./scripts/token/deploy.js --network localhost
+        ./node_modules/.bin/hardhat run ./scripts/token/mint.js --network localhost
+        ./node_modules/.bin/hardhat run ./scripts/bridge/deploy.js --network localhost
 
 
   seeder:
