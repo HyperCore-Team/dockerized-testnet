@@ -6,7 +6,7 @@
 	"PillarConfig": {
 		"Pillars": [
 			{
-				"Name": "VPS_1",
+				"Name": "PILLAR_1",
 				"BlockProducingAddress": "z1qpp8g8v4hrd5ernfrgsn86jmv09ra6zrvhvmr7",
 				"RewardWithdrawAddress": "z1qpp8g8v4hrd5ernfrgsn86jmv09ra6zrvhvmr7",
 				"StakeAddress": "z1qpp8g8v4hrd5ernfrgsn86jmv09ra6zrvhvmr7",
@@ -18,7 +18,7 @@
 				"PillarType": 1
 			},
 			{
-				"Name": "VPS_2",
+				"Name": "PILLAR_2",
 				"BlockProducingAddress": "z1qrupr2rvzllzgk26qezwuflwujmn0z3gsxjnjv",
 				"RewardWithdrawAddress": "z1qrupr2rvzllzgk26qezwuflwujmn0z3gsxjnjv",
 				"StakeAddress": "z1qrupr2rvzllzgk26qezwuflwujmn0z3gsxjnjv",
@@ -30,7 +30,7 @@
 				"PillarType": 1
 			},
 			{
-				"Name": "VPS_3",
+				"Name": "PILLAR_3",
 				"BlockProducingAddress": "z1qrqsclgp2pfca7yg74lzke0ve93zvdqyvxfxd8",
 				"RewardWithdrawAddress": "z1qrqsclgp2pfca7yg74lzke0ve93zvdqyvxfxd8",
 				"StakeAddress": "z1qrqsclgp2pfca7yg74lzke0ve93zvdqyvxfxd8",
@@ -42,7 +42,7 @@
 				"PillarType": 1
 			},
 			{
-				"Name": "VPS_4",
+				"Name": "PILLAR_4",
 				"BlockProducingAddress": "z1qrantskdqaue5q8qzll97nx75g9vn05h2668l0",
 				"RewardWithdrawAddress": "z1qrantskdqaue5q8qzll97nx75g9vn05h2668l0",
 				"StakeAddress": "z1qrantskdqaue5q8qzll97nx75g9vn05h2668l0",
@@ -54,250 +54,10 @@
 				"PillarType": 1
 			},
 			{
-				"Name": "VPS_5",
+				"Name": "PILLAR_5",
 				"BlockProducingAddress": "z1qr8fmf2regmlgs004d32jnujw3p5hhgsdw5vwe",
 				"RewardWithdrawAddress": "z1qr8fmf2regmlgs004d32jnujw3p5hhgsdw5vwe",
 				"StakeAddress": "z1qr8fmf2regmlgs004d32jnujw3p5hhgsdw5vwe",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_6",
-				"BlockProducingAddress": "z1qzpqmrvzx3qsd5al2ut5srlqydeez6xf0hjc03",
-				"RewardWithdrawAddress": "z1qzpqmrvzx3qsd5al2ut5srlqydeez6xf0hjc03",
-				"StakeAddress": "z1qzpqmrvzx3qsd5al2ut5srlqydeez6xf0hjc03",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_7",
-				"BlockProducingAddress": "z1qz9dk7q90pgmld2papzm2sq4sjckk2ug64t2mw",
-				"RewardWithdrawAddress": "z1qz9dk7q90pgmld2papzm2sq4sjckk2ug64t2mw",
-				"StakeAddress": "z1qz9dk7q90pgmld2papzm2sq4sjckk2ug64t2mw",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_8",
-				"BlockProducingAddress": "z1qr4a43ml9eus9f7cu4l6ysur4fax0gggv5p0pv",
-				"RewardWithdrawAddress": "z1qr4a43ml9eus9f7cu4l6ysur4fax0gggv5p0pv",
-				"StakeAddress": "z1qr4a43ml9eus9f7cu4l6ysur4fax0gggv5p0pv",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_9",
-				"BlockProducingAddress": "z1qz7s27e744p6qfgqf3s9k3ae23xqnde8cgzzhc",
-				"RewardWithdrawAddress": "z1qz7s27e744p6qfgqf3s9k3ae23xqnde8cgzzhc",
-				"StakeAddress": "z1qz7s27e744p6qfgqf3s9k3ae23xqnde8cgzzhc",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_10",
-				"BlockProducingAddress": "z1qr2ulnrclz5zwtxue9q9vz4z0fav9ma8r3kxfh",
-				"RewardWithdrawAddress": "z1qr2ulnrclz5zwtxue9q9vz4z0fav9ma8r3kxfh",
-				"StakeAddress": "z1qr2ulnrclz5zwtxue9q9vz4z0fav9ma8r3kxfh",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_11",
-				"BlockProducingAddress": "z1qrushuttcge5gmw3eh2qpfzddmxm9hcq807fyz",
-				"RewardWithdrawAddress": "z1qrushuttcge5gmw3eh2qpfzddmxm9hcq807fyz",
-				"StakeAddress": "z1qrushuttcge5gmw3eh2qpfzddmxm9hcq807fyz",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_12",
-				"BlockProducingAddress": "z1qrh56m9dhmlyeu7yysnytatjkg674849gvn393",
-				"RewardWithdrawAddress": "z1qrh56m9dhmlyeu7yysnytatjkg674849gvn393",
-				"StakeAddress": "z1qrh56m9dhmlyeu7yysnytatjkg674849gvn393",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_13",
-				"BlockProducingAddress": "z1qrelm8zplr9wel4l3vy7wfc4sj9scme9ckq3vl",
-				"RewardWithdrawAddress": "z1qrelm8zplr9wel4l3vy7wfc4sj9scme9ckq3vl",
-				"StakeAddress": "z1qrelm8zplr9wel4l3vy7wfc4sj9scme9ckq3vl",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_14",
-				"BlockProducingAddress": "z1qzk593pnmmj0rg7nwe75jwq9ztt3l5rkwtecn9",
-				"RewardWithdrawAddress": "z1qzk593pnmmj0rg7nwe75jwq9ztt3l5rkwtecn9",
-				"StakeAddress": "z1qzk593pnmmj0rg7nwe75jwq9ztt3l5rkwtecn9",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_15",
-				"BlockProducingAddress": "z1qzpstygztjusnnr9828w0mhx2yjnzj8lpeakp7",
-				"RewardWithdrawAddress": "z1qzpstygztjusnnr9828w0mhx2yjnzj8lpeakp7",
-				"StakeAddress": "z1qzpstygztjusnnr9828w0mhx2yjnzj8lpeakp7",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_16",
-				"BlockProducingAddress": "z1qplzv7agheh7swshclw7lf6p4tfklve6ac2qjl",
-				"RewardWithdrawAddress": "z1qplzv7agheh7swshclw7lf6p4tfklve6ac2qjl",
-				"StakeAddress": "z1qplzv7agheh7swshclw7lf6p4tfklve6ac2qjl",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_17",
-				"BlockProducingAddress": "z1qqu3my49gy6ztswxwhux7quwlugps90wdf749s",
-				"RewardWithdrawAddress": "z1qqu3my49gy6ztswxwhux7quwlugps90wdf749s",
-				"StakeAddress": "z1qqu3my49gy6ztswxwhux7quwlugps90wdf749s",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_18",
-				"BlockProducingAddress": "z1qrm0x99zhz8kw5flxch0t3mj8f8rzufyyre8z0",
-				"RewardWithdrawAddress": "z1qrm0x99zhz8kw5flxch0t3mj8f8rzufyyre8z0",
-				"StakeAddress": "z1qrm0x99zhz8kw5flxch0t3mj8f8rzufyyre8z0",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_19",
-				"BlockProducingAddress": "z1qrgg5uklyvlfjc756emdh69fysq25ulm8hh5mx",
-				"RewardWithdrawAddress": "z1qrgg5uklyvlfjc756emdh69fysq25ulm8hh5mx",
-				"StakeAddress": "z1qrgg5uklyvlfjc756emdh69fysq25ulm8hh5mx",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_20",
-				"BlockProducingAddress": "z1qzhcwfmj5p9q6zy9kgy4rjwgx2elrx7485v0a9",
-				"RewardWithdrawAddress": "z1qzhcwfmj5p9q6zy9kgy4rjwgx2elrx7485v0a9",
-				"StakeAddress": "z1qzhcwfmj5p9q6zy9kgy4rjwgx2elrx7485v0a9",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_21",
-				"BlockProducingAddress": "z1qq93vhxwmlsqt2xlnx0fuz9qh9nzzhy73gdcss",
-				"RewardWithdrawAddress": "z1qq93vhxwmlsqt2xlnx0fuz9qh9nzzhy73gdcss",
-				"StakeAddress": "z1qq93vhxwmlsqt2xlnx0fuz9qh9nzzhy73gdcss",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_22",
-				"BlockProducingAddress": "z1qra28ful32ap5fz22wzgm6p2xrf64kmfz7fg6v",
-				"RewardWithdrawAddress": "z1qra28ful32ap5fz22wzgm6p2xrf64kmfz7fg6v",
-				"StakeAddress": "z1qra28ful32ap5fz22wzgm6p2xrf64kmfz7fg6v",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_23",
-				"BlockProducingAddress": "z1qqz5agr7999awlyn6a24mwn79hwgh3jtrzdl6n",
-				"RewardWithdrawAddress": "z1qqz5agr7999awlyn6a24mwn79hwgh3jtrzdl6n",
-				"StakeAddress": "z1qqz5agr7999awlyn6a24mwn79hwgh3jtrzdl6n",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_24",
-				"BlockProducingAddress": "z1qp7qc553p3wes096paqr77xrsve8hxwml6nzkc",
-				"RewardWithdrawAddress": "z1qp7qc553p3wes096paqr77xrsve8hxwml6nzkc",
-				"StakeAddress": "z1qp7qc553p3wes096paqr77xrsve8hxwml6nzkc",
-				"Amount": 1500000000000,
-				"RegistrationTime": 1666094400,
-				"RevokeTime": 0,
-				"GiveBlockRewardPercentage": 0,
-				"GiveDelegateRewardPercentage": 100,
-				"PillarType": 1
-			},
-			{
-				"Name": "VPS_25",
-				"BlockProducingAddress": "z1qz07atuhae782fea09rdhrtr8urtrskqvgr6ft",
-				"RewardWithdrawAddress": "z1qz07atuhae782fea09rdhrtr8urtrskqvgr6ft",
-				"StakeAddress": "z1qz07atuhae782fea09rdhrtr8urtrskqvgr6ft",
 				"Amount": 1500000000000,
 				"RegistrationTime": 1666094400,
 				"RevokeTime": 0,
@@ -309,103 +69,23 @@
 		"Delegations": [
 			{
 				"Backer": "z1qpp8g8v4hrd5ernfrgsn86jmv09ra6zrvhvmr7",
-				"Name": "VPS_1"
+				"Name": "PILLAR_1"
 			},
 			{
 				"Backer": "z1qrupr2rvzllzgk26qezwuflwujmn0z3gsxjnjv",
-				"Name": "VPS_2"
+				"Name": "PILLAR_2"
 			},
 			{
 				"Backer": "z1qrqsclgp2pfca7yg74lzke0ve93zvdqyvxfxd8",
-				"Name": "VPS_3"
+				"Name": "PILLAR_3"
 			},
 			{
 				"Backer": "z1qrantskdqaue5q8qzll97nx75g9vn05h2668l0",
-				"Name": "VPS_4"
+				"Name": "PILLAR_4"
 			},
 			{
 				"Backer": "z1qr8fmf2regmlgs004d32jnujw3p5hhgsdw5vwe",
-				"Name": "VPS_5"
-			},
-			{
-				"Backer": "z1qzpqmrvzx3qsd5al2ut5srlqydeez6xf0hjc03",
-				"Name": "VPS_6"
-			},
-			{
-				"Backer": "z1qz9dk7q90pgmld2papzm2sq4sjckk2ug64t2mw",
-				"Name": "VPS_7"
-			},
-			{
-				"Backer": "z1qr4a43ml9eus9f7cu4l6ysur4fax0gggv5p0pv",
-				"Name": "VPS_8"
-			},
-			{
-				"Backer": "z1qz7s27e744p6qfgqf3s9k3ae23xqnde8cgzzhc",
-				"Name": "VPS_9"
-			},
-			{
-				"Backer": "z1qr2ulnrclz5zwtxue9q9vz4z0fav9ma8r3kxfh",
-				"Name": "VPS_10"
-			},
-			{
-				"Backer": "z1qrushuttcge5gmw3eh2qpfzddmxm9hcq807fyz",
-				"Name": "VPS_11"
-			},
-			{
-				"Backer": "z1qrh56m9dhmlyeu7yysnytatjkg674849gvn393",
-				"Name": "VPS_12"
-			},
-			{
-				"Backer": "z1qrelm8zplr9wel4l3vy7wfc4sj9scme9ckq3vl",
-				"Name": "VPS_13"
-			},
-			{
-				"Backer": "z1qzk593pnmmj0rg7nwe75jwq9ztt3l5rkwtecn9",
-				"Name": "VPS_14"
-			},
-			{
-				"Backer": "z1qzpstygztjusnnr9828w0mhx2yjnzj8lpeakp7",
-				"Name": "VPS_15"
-			},
-			{
-				"Backer": "z1qplzv7agheh7swshclw7lf6p4tfklve6ac2qjl",
-				"Name": "VPS_16"
-			},
-			{
-				"Backer": "z1qqu3my49gy6ztswxwhux7quwlugps90wdf749s",
-				"Name": "VPS_17"
-			},
-			{
-				"Backer": "z1qrm0x99zhz8kw5flxch0t3mj8f8rzufyyre8z0",
-				"Name": "VPS_18"
-			},
-			{
-				"Backer": "z1qrgg5uklyvlfjc756emdh69fysq25ulm8hh5mx",
-				"Name": "VPS_19"
-			},
-			{
-				"Backer": "z1qzhcwfmj5p9q6zy9kgy4rjwgx2elrx7485v0a9",
-				"Name": "VPS_20"
-			},
-			{
-				"Backer": "z1qq93vhxwmlsqt2xlnx0fuz9qh9nzzhy73gdcss",
-				"Name": "VPS_21"
-			},
-			{
-				"Backer": "z1qra28ful32ap5fz22wzgm6p2xrf64kmfz7fg6v",
-				"Name": "VPS_22"
-			},
-			{
-				"Backer": "z1qqz5agr7999awlyn6a24mwn79hwgh3jtrzdl6n",
-				"Name": "VPS_23"
-			},
-			{
-				"Backer": "z1qp7qc553p3wes096paqr77xrsve8hxwml6nzkc",
-				"Name": "VPS_24"
-			},
-			{
-				"Backer": "z1qz07atuhae782fea09rdhrtr8urtrskqvgr6ft",
-				"Name": "VPS_25"
+				"Name": "PILLAR_5"
 			}
 		],
 		"LegacyEntries": []
@@ -417,7 +97,7 @@
 				"tokenName": "Testnet ZNN",
 				"tokenSymbol": "ZNN",
 				"tokenDomain": "zenon.network",
-				"totalSupply": 3001740500000000000,
+				"totalSupply": 3001510500000000000,
 				"maxSupply": 4611686018427387903,
 				"decimals": 8,
 				"isMintable": true,
@@ -430,7 +110,7 @@
 				"tokenName": "Testnet QSR",
 				"tokenSymbol": "QSR",
 				"tokenDomain": "zenon.network",
-				"totalSupply": 3107073000000000000,
+				"totalSupply": 3105053000000000000,
 				"maxSupply": 4611686018427387903,
 				"decimals": 8,
 				"isMintable": true,
@@ -812,146 +492,6 @@
 				"amount": 1000000000000,
 				"withdrawHeight": 1,
 				"beneficiaryAddress": "z1qr8fmf2regmlgs004d32jnujw3p5hhgsdw5vwe"
-			},
-			{
-				"owner": "z1qzpqmrvzx3qsd5al2ut5srlqydeez6xf0hjc03",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qzpqmrvzx3qsd5al2ut5srlqydeez6xf0hjc03"
-			},
-			{
-				"owner": "z1qz9dk7q90pgmld2papzm2sq4sjckk2ug64t2mw",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qz9dk7q90pgmld2papzm2sq4sjckk2ug64t2mw"
-			},
-			{
-				"owner": "z1qr4a43ml9eus9f7cu4l6ysur4fax0gggv5p0pv",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qr4a43ml9eus9f7cu4l6ysur4fax0gggv5p0pv"
-			},
-			{
-				"owner": "z1qz7s27e744p6qfgqf3s9k3ae23xqnde8cgzzhc",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qz7s27e744p6qfgqf3s9k3ae23xqnde8cgzzhc"
-			},
-			{
-				"owner": "z1qr2ulnrclz5zwtxue9q9vz4z0fav9ma8r3kxfh",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qr2ulnrclz5zwtxue9q9vz4z0fav9ma8r3kxfh"
-			},
-			{
-				"owner": "z1qrushuttcge5gmw3eh2qpfzddmxm9hcq807fyz",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qrushuttcge5gmw3eh2qpfzddmxm9hcq807fyz"
-			},
-			{
-				"owner": "z1qrh56m9dhmlyeu7yysnytatjkg674849gvn393",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qrh56m9dhmlyeu7yysnytatjkg674849gvn393"
-			},
-			{
-				"owner": "z1qrelm8zplr9wel4l3vy7wfc4sj9scme9ckq3vl",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qrelm8zplr9wel4l3vy7wfc4sj9scme9ckq3vl"
-			},
-			{
-				"owner": "z1qzk593pnmmj0rg7nwe75jwq9ztt3l5rkwtecn9",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qzk593pnmmj0rg7nwe75jwq9ztt3l5rkwtecn9"
-			},
-			{
-				"owner": "z1qzpstygztjusnnr9828w0mhx2yjnzj8lpeakp7",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qzpstygztjusnnr9828w0mhx2yjnzj8lpeakp7"
-			},
-			{
-				"owner": "z1qplzv7agheh7swshclw7lf6p4tfklve6ac2qjl",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qplzv7agheh7swshclw7lf6p4tfklve6ac2qjl"
-			},
-			{
-				"owner": "z1qqu3my49gy6ztswxwhux7quwlugps90wdf749s",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qqu3my49gy6ztswxwhux7quwlugps90wdf749s"
-			},
-			{
-				"owner": "z1qrm0x99zhz8kw5flxch0t3mj8f8rzufyyre8z0",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qrm0x99zhz8kw5flxch0t3mj8f8rzufyyre8z0"
-			},
-			{
-				"owner": "z1qrgg5uklyvlfjc756emdh69fysq25ulm8hh5mx",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qrgg5uklyvlfjc756emdh69fysq25ulm8hh5mx"
-			},
-			{
-				"owner": "z1qzhcwfmj5p9q6zy9kgy4rjwgx2elrx7485v0a9",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qzhcwfmj5p9q6zy9kgy4rjwgx2elrx7485v0a9"
-			},
-			{
-				"owner": "z1qq93vhxwmlsqt2xlnx0fuz9qh9nzzhy73gdcss",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qq93vhxwmlsqt2xlnx0fuz9qh9nzzhy73gdcss"
-			},
-			{
-				"owner": "z1qra28ful32ap5fz22wzgm6p2xrf64kmfz7fg6v",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qra28ful32ap5fz22wzgm6p2xrf64kmfz7fg6v"
-			},
-			{
-				"owner": "z1qqz5agr7999awlyn6a24mwn79hwgh3jtrzdl6n",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qqz5agr7999awlyn6a24mwn79hwgh3jtrzdl6n"
-			},
-			{
-				"owner": "z1qp7qc553p3wes096paqr77xrsve8hxwml6nzkc",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qp7qc553p3wes096paqr77xrsve8hxwml6nzkc"
-			},
-			{
-				"owner": "z1qz07atuhae782fea09rdhrtr8urtrskqvgr6ft",
-				"id": "1dbd7d0b561a41d23c2a469ad42fbd70d5438bae826f6fd607413190c37c363b",
-				"amount": 1000000000000,
-				"withdrawHeight": 1,
-				"beneficiaryAddress": "z1qz07atuhae782fea09rdhrtr8urtrskqvgr6ft"
 			}
 		]
 	},
@@ -981,13 +521,13 @@
 			{
 				"Address": "z1qxemdeddedxplasmaxxxxxxxxxxxxxxxxsctrp",
 				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 73000000000000
+					"zts1qsrxxxxxxxxxxxxxmrhjll": 53000000000000
 				}
 			},
 			{
 				"Address": "z1qxemdeddedxpyllarxxxxxxxxxxxxxxxsy3fmg",
 				"BalanceList": {
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 37500000000000
+					"zts1znnxxxxxxxxxxxxx9z4ulx": 7500000000000
 				}
 			},
 			{
@@ -1349,146 +889,6 @@
 			},
 			{
 				"Address": "z1qr8fmf2regmlgs004d32jnujw3p5hhgsdw5vwe",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qzpqmrvzx3qsd5al2ut5srlqydeez6xf0hjc03",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qz9dk7q90pgmld2papzm2sq4sjckk2ug64t2mw",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qr4a43ml9eus9f7cu4l6ysur4fax0gggv5p0pv",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qz7s27e744p6qfgqf3s9k3ae23xqnde8cgzzhc",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qr2ulnrclz5zwtxue9q9vz4z0fav9ma8r3kxfh",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qrushuttcge5gmw3eh2qpfzddmxm9hcq807fyz",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qrh56m9dhmlyeu7yysnytatjkg674849gvn393",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qrelm8zplr9wel4l3vy7wfc4sj9scme9ckq3vl",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qzk593pnmmj0rg7nwe75jwq9ztt3l5rkwtecn9",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qzpstygztjusnnr9828w0mhx2yjnzj8lpeakp7",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qplzv7agheh7swshclw7lf6p4tfklve6ac2qjl",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qqu3my49gy6ztswxwhux7quwlugps90wdf749s",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qrm0x99zhz8kw5flxch0t3mj8f8rzufyyre8z0",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qrgg5uklyvlfjc756emdh69fysq25ulm8hh5mx",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qzhcwfmj5p9q6zy9kgy4rjwgx2elrx7485v0a9",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qq93vhxwmlsqt2xlnx0fuz9qh9nzzhy73gdcss",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qra28ful32ap5fz22wzgm6p2xrf64kmfz7fg6v",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qqz5agr7999awlyn6a24mwn79hwgh3jtrzdl6n",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qp7qc553p3wes096paqr77xrsve8hxwml6nzkc",
-				"BalanceList": {
-					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
-					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000
-				}
-			},
-			{
-				"Address": "z1qz07atuhae782fea09rdhrtr8urtrskqvgr6ft",
 				"BalanceList": {
 					"zts1qsrxxxxxxxxxxxxxmrhjll": 100000000000000,
 					"zts1znnxxxxxxxxxxxxx9z4ulx": 10000000000000

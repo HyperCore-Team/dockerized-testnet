@@ -8,12 +8,20 @@
         "bsc": {
             "Urls": [
                 "ws://172.20.0.253:8545"
-            ]
+            ],
+            "FilterQuerySize": 0
+        },
+        "eth": {
+            "Urls": [
+                ""
+            ],
+            "FilterQuerySize": 2000
         },
         "znn": {
             "Urls": [
                 "ws://127.0.0.1:35998"
-            ]
+            ],
+            "FilterQuerySize": 0
         }
     },
     "TssConfig": {
@@ -21,16 +29,6 @@
         "PublicKey": "",
         "DecompressedPublicKey": "",
         "LocalPubKeys": [],
-        "Param": {
-            "PaillierSK": null,
-            "NTildei": null,
-            "H1i": null,
-            "H2i": null,
-            "Alpha": null,
-            "Beta": null,
-            "P": null,
-            "Q": null
-        },
         "Bootstrap": "",
         "PubKeyWhitelist": {},
         "BaseDir": "/root/.node/tss",
