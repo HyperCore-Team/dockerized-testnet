@@ -7,7 +7,8 @@ IP=`ifconfig eth0 | grep 'inet ' | awk '{print $2}'`
 SERVICE=`dig -x $IP +short | cut -d'_' -f2`
 
 # extract the replica number from the same PTR entry
-export INDEX=`dig -x $IP +short | sed 's/.*_\([0-9]*\)\..*/\1/'`
+# export INDEX=`dig -x $IP +short | sed 's/.*_\([0-9]*\)\..*/\1/'`
+export INDEX=`dig -x $IP +short | sed -e 's/.*[^0-9]\([0-9]\+\)[^0-9]*$/\1/'`
 JSON_INDEX=$((INDEX-1))
 export ADDRESS=`cat /app/configs/genesis.json | python3 -c "import sys, json; print(json.load(sys.stdin)['PillarConfig']['Pillars'][$JSON_INDEX]['BlockProducingAddress'])"`
 export MIN_PEERS=$((PILLARS_REPLICAS+0))
