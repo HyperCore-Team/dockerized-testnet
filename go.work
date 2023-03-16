@@ -1,9 +1,0 @@
-go 1.20
-
-use (
-	./data/repos/go-tss
-	./data/repos/go-zenon
-	./data/repos/orchestrator
-	./data/repos/tss-lib
-	./data/repos/znn-sdk-go
-)

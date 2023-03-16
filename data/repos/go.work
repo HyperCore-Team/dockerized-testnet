@@ -1,0 +1,13 @@
+go 1.20
+
+use (
+	./go-tss
+	./go-zenon
+	./orchestrator
+	./tss-lib
+	./znn-sdk-go
+)
+
+replace github.com/binance-chain/tss-lib v0.0.0-20201118045712-70b2cb4bf916 => ./tss-lib
+replace github.com/zenon-network/go-zenon v0.0.4 => ./go-zenon
+replace github.com/HyperCore-Team/znn-sdk-go v0.0.0-20230307101908-a512ed822122 => ./znn-sdk-go
