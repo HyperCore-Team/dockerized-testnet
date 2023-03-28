@@ -1,5 +1,5 @@
 {
-    "DataPath": "/root/.node",
+    "DataPath": "/root/.orchestrator",
     "EventsPath": "",
     "QueuesPath": "",
     "GlobalState": 0,
@@ -35,7 +35,7 @@
         "Bootstrap": "/ip4/172.20.0.254/tcp/18668/p2p/12D3KooWCZuyZhmdHCp5LLRxZd619T3AT8pLAg4P6UnqST894qpN",
         "PubKeyWhitelist": 
         ${PUBKEY_WHITELIST},
-        "BaseDir": "/root/.node/tss",
+        "BaseDir": "/root/.orchestrator/tss",
         "BaseConfig": {
             "PartyTimeout": 90000000000,
             "KeyGenTimeout": 3000000000000,

@@ -14,8 +14,8 @@ services:
     volumes:
       - "./data:/app"
       - "./data/configs/producer.json:/root/.znn/wallet/producer.json"
-      - "./data/configs/orchestrator.seeder.json:/root/.node/config.json"
-      - "./data/configs/producer.json:/root/.node/producer.json"
+      - "./data/configs/orchestrator.seeder.json:/root/.orchestrator/config.json"
+      - "./data/configs/producer.json:/root/.orchestrator/producer.json"
     environment:
       PILLARS_REPLICAS: ${PILLARS_REPLICAS}
     command: >
@@ -77,8 +77,8 @@ services:
       - "./data/configs/config.seeder.json:/root/.znn/config.json"
       - "./data/configs/producer.json:/root/.znn/wallet/producer.json"
       - "./data/configs/network-private-key-seeder:/root/.znn/network-private-key"
-      - "./data/configs/orchestrator.seeder.json:/root/.node/config.json"
-      - "./data/configs/producer.json:/root/.node/producer.json"
+      - "./data/configs/producer.json:/root/.orchestrator/producer.json"
+      - "./data/configs/orchestrator.seeder.json:/root/.orchestrator/config.json"
       # - "./data/bootstraps/${PILLARS_REPLICAS}-pillars/consensus:/root/.znn/consensus"
       # - "./data/bootstraps/${PILLARS_REPLICAS}-pillars/network:/root/.znn/network"
       # - "./data/bootstraps/${PILLARS_REPLICAS}-pillars/nom:/root/.znn/nom"
@@ -98,6 +98,7 @@ services:
         then
             cp -avr /app/bootstraps/$PILLARS_REPLICAS-pillars/* /root/.znn/
         fi && \
+        # cp /app/configs/orchestrator.seeder.json /root/.orchestrator/config.json && \
         # apt install iproute2 -y && \
         # tc qdisc add dev eth0 root netem delay 70ms loss 0.5% && \
         (until znnd ;do sleep 1; done & sleep 30 && until orchestrator; do sleep 30; done & wait)
@@ -114,7 +115,7 @@ services:
       - "./data:/app"
       - "./data/configs/genesis.json:/root/.znn/genesis.json"
       - "./data/configs/producer.json:/root/.znn/wallet/producer.json"
-      - "./data/configs/producer.json:/root/.node/producer.json"
+      - "./data/configs/producer.json:/root/.orchestrator/producer.json"
     networks: 
       - testnet
     depends_on:

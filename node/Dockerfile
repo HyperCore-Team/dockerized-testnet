@@ -21,7 +21,7 @@ RUN \
   && go mod tidy \
   && go build --ldflags '-extldflags "-Wl,--allow-multiple-definition"' -o /usr/local/bin/init_bridge ./tss/main.go;
 
-RUN mkdir -p /root/.znn/wallet /root/.node
+RUN mkdir -p /root/.znn/wallet /root/.orchestrator
 
 RUN apt update && apt install -y net-tools dnsutils gettext-base
 

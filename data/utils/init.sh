@@ -16,7 +16,7 @@ export LOCAL_PUBKEYS=`cat /app/configs/orchestrator.TssConfig.LocalPubKeys.json`
 export PUBKEY_WHITELIST=`cat /app/configs/orchestrator.TssConfig.PubKeyWhitelist.json`
 
 envsubst < /app/configs/config.template.json > /root/.znn/config.json
-envsubst < /app/configs/orchestrator.template.json > /root/.node/config.json
+envsubst < /app/configs/orchestrator.template.json > /root/.orchestrator/config.json
 
 if [ -d "/app/bootstraps/${PILLARS_REPLICAS}-pillars" ];
 then
