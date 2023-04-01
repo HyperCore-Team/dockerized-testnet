@@ -57,9 +57,9 @@ services:
         cd /app/repos/evm-bridge-contracts
         npm install
         ./node_modules/.bin/hardhat compile
-        ./node_modules/.bin/hardhat run ./scripts/token/deploy.js --network localhost
-        ./node_modules/.bin/hardhat run ./scripts/token/mint.js --network localhost
-        ./node_modules/.bin/hardhat run ./scripts/bridge/deploy.js --network localhost
+        ./node_modules/.bin/hardhat run ./scripts/token/deploy.js --network docker
+        ./node_modules/.bin/hardhat run ./scripts/token/mint.js --network docker
+        ./node_modules/.bin/hardhat run ./scripts/bridge/deploy.js --network docker
 
 
   seeder:
