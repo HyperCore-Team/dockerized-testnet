@@ -14,7 +14,7 @@ RUN \
   cd /app/repos/orchestrator/ \
   && go mod tidy \
   && make \
-  && cp ./orchestrator /usr/local/bin/
+  && cp ./build/orchestrator /usr/local/bin/
 
 RUN \
   cd /app/repos/scripts \
