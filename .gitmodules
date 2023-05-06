@@ -1,0 +1,21 @@
+[submodule "data/repos/go-tss"]
+	path = data/repos/go-tss
+	url = https://github.com/HyperCore-Team/go-tss.git
+[submodule "data/repos/go-zenon"]
+	path = data/repos/go-zenon
+	url = https://github.com/HyperCore-Team/go-zenon.git
+[submodule "data/repos/orchestrator"]
+	path = data/repos/orchestrator
+	url = https://github.com/HyperCore-Team/orchestrator.git
+[submodule "data/repos/tss-lib"]
+	path = data/repos/tss-lib
+	url = https://github.com/HyperCore-Team/tss-lib.git
+[submodule "data/repos/evm-bridge-contracts"]
+	path = data/repos/evm-bridge-contracts
+	url = https://github.com/HyperCore-Team/evm-bridge-contracts.git
+[submodule "data/repos/znn-sdk-go"]
+	path = data/repos/znn-sdk-go
+	url = https://github.com/HyperCore-Team/znn-sdk-go.git
+[submodule "data/repos/scripts"]
+	path = data/repos/scripts
+	url = https://github.com/HyperCore-Team/scripts.git
